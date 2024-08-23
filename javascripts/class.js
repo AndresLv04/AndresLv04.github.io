@@ -90,6 +90,29 @@ class expresiones {
         document.getElementById("input_dolares").innerHTML = dolares.toFixed(2) + " dolares";
         document.getElementById("input_euros").innerHTML = euros.toFixed(2) + " euros";
     }
+
+    parqueadero(){
+        const pHora = 2000;
+        const IVA = 0.2;
+        let hora = document.getElementById("input_ejercicio6").value;
+
+        hora = Number(hora)
+        if(!Number.isInteger(hora) || hora <= 0){
+
+            document.getElementById("input_resultado6").innerHTML = "La forma en la que ingreso la hora no es permitido...";
+
+        }else{
+            let valorBruto = hora * pHora;
+            let valorIVA = valorBruto * IVA;
+            let valorPagar = valorIVA + valorBruto
+
+            document.getElementById("input_valorBruto").innerHTML = "VALOR BRUTO (SIN IVA): " + valorBruto + " $";
+            document.getElementById("input_valorIVA").innerHTML = "VALOR IVA  (20%)          : " + valorIVA   + " $";
+            document.getElementById("input_resultado6").innerHTML = "VALOR A PAGAR      : " + valorPagar + " $";
+
+
+        }
+    }
 }
 
 var ejercicioExpresiones = new expresiones();

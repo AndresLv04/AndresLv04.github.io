@@ -59,7 +59,7 @@
                 </div>
                 <label for="input_ejercicio3">Grados: </label>
                 <input type="number" id="input_ejercicio3" placeholder="0">
-                <button type="button" id="calcular_ejercicio3" onclick="grados()">Calcular</button>
+                <button type="button" id="calcular_ejercicio3" onclick="ejercicioExpresiones.grados()">Calcular</button>
                 <div class="container_resultado">
                     <label>Son: </label>
                     <label for="" id="input_resultado3"></label>
@@ -80,7 +80,7 @@
                 <div class="ventas">
                     <label for="input_ventas">¿Cuantas ventas realizo en el mes?</label>
                     <input type="number" id="input_ventas" placeholder="200 ventas">
-                    <button type="button" id="calcular_ejercicio4" onclick="salario()">Calcular</button>  
+                    <button type="button" id="calcular_ejercicio4" onclick="ejercicioExpresiones.salario()">Calcular</button>  
                 </div>
                 <div>
                     <label for="">Su salario bruto es: </label>
@@ -97,7 +97,7 @@
                 <p>Diseñe un algoritmo para convertir pesos a dolares y pesos a euros.</p>
                 <label for="">¿Cuantos pesos desea convetir a dolares y a euros?: </label>
                 <input type="number" id="input_ejercicio5" placeholder="150000">
-                <button type="button" id="calcular_ejercicio5" onclick="conversion()">Convertir</button>
+                <button type="button" id="calcular_ejercicio5" onclick="ejercicioExpresiones.conversion()">Convertir</button>
                 <div class="container_resultado">
                     <div class="resultado_dolares">
                         <label for="" id="input_dolares"></label>
@@ -111,6 +111,20 @@
                 <h3 id="ejercicio6">Ejercicio 6: <span>Calcular el pago de un parqueadero por horas</span></h3>
                 <p> Diseñe un algoritmo para calcular el pago de un parqueadero por horas. 
                     Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga. </p>
+                    <label for="">Horas parqueado</label>
+                    <input type="number" id="input_ejercicio6" placeholder="9" step="1" required>
+                    <button type="button" id="calcular_ejercicio6" onclick="ejercicioExpresiones.parqueadero()">Calcular</button>
+                    <div class="container_resultado">
+                        <div class="ctn_vBruto">
+                            <label for="" id="input_valorBruto"></label>
+                        </div>
+                        <div class="ctn_vIVA">
+                            <label for="" id="input_valorIVA"></label>
+                        </div>
+                        <div class="ctn_resultado">
+                            <label for="" id="input_resultado6"></label>
+                        </div>
+                    </div>
             </div>
         </div>
     </body>
