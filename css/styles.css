@@ -96,7 +96,7 @@ label{
     margin: 15px 0 25px 0;
 }
 
-#input_resultado1, #input_resultado2, #input_resultado3, #input_resultado4, #input_salarioBruto, #input_dolares,#input_euros{
+#input_resultado1, #input_resultado2, #input_resultado3, #input_resultado4, #input_salarioBruto, #input_dolares,#input_euros, #input_resultado6, #input_valorBruto, #input_valorIVA{
     border: none;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
