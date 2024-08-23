@@ -1,0 +1,119 @@
+body{
+    background-color: #222;
+    margin: 0;
+    color: #eee;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px;
+    font-size: 2.2em;
+    letter-spacing: 3px;
+}
+
+.container_list_ejercicios, .container_ejercicios{
+    background-color: transparent;
+    padding: 20px 0px;
+    min-width: 200px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 55px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+input, select{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    background-color: transparent;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px #fff2;
+    border-radius: 4px;
+    font-size: 1.25em;
+    margin: 20px 0 20px 0px;
+    color: #eee
+}
+select{
+    width: 200px;
+    background-color: #363636;
+    text-align: center;
+}
+
+ul{
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.list_ejercicios_expresiones{
+    list-style: none;
+    line-height: 2;
+    padding: 0px 35px 0 0;
+
+}
+h3{
+    font-size: 2.5em;
+    margin: 0px 0 22.5px 0;
+    font-weight: 500;
+    color:#eee
+}
+
+#ejercicio1, #ejercicio2, #ejercicio3, #ejercicio4{
+    margin-top: 20px;
+}
+
+.container_ejercicios{
+    max-width: 800px;
+    padding: 30px;
+    background: linear-gradient(#fff2, transparent);
+    border: none;
+    border-top: 3px solid #eee9;
+}
+
+span{
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.5em;
+    margin: 0;
+}
+label{
+    margin-right: 20px;
+    font-size: 1.35em;
+}
+
+.container_resultado{
+    margin: 15px 0 25px 0;
+}
+
+#input_resultado1, #input_resultado2, #input_resultado3, #input_resultado4, #input_salarioBruto, #input_dolares,#input_euros{
+    border: none;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-radius: 3.5px;
+    padding: 4px 20px;
+}
+
+button{
+    padding: 5px 10px;
+    margin-left: 12.5px;
+    background-color: transparent;
+    box-shadow: 0 0 3px #eee9;
+    border: 1px solid #fff2;
+    border-radius: 5px;
+    color: #eee;
+}
+
+.resultado_dolares, .resultado_euros{
+    margin: 20px;
+}
